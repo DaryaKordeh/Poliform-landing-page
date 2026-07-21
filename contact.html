@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us – Home Furnishing</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+
+
+    :root{
+      --bg:#f6f7ef;
+      --card:#daa989;
+      --primary:#c8895e;
+      --dark:#3a2a24;
+      --text:#2e2622;
+      --muted:#7b6f68;
+      --radius:22px;
+    }
+
+
+    *{
+      margin:0;padding:0
+      ;box-sizing:border-box
+    }
+
+
+    body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text)}
+
+    header{
+      background:#fff;
+      padding:20px 80px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between
+    }
+
+    nav a{margin:0 18px;font-size:14px;color:var(--muted);text-decoration:none}
+
+    .hero{text-align:center;padding:90px 20px 140px;background:linear-gradient(#f1f4e8,#f6f7ef)}
+
+    .hero h1{font-size:46px;margin-bottom:12px}
+
+    .hero p{max-width:520px;margin:auto;color:var(--muted)}
+
+    .bread-img{margin-top:40px}
+
+    .bread-img img{width:100%;max-height:160px;object-fit:cover}
+
+
+    section{max-width:1200px;margin:-80px auto 120px;padding:0 20px}
+
+    .contact-grid{display:grid;grid-template-columns:1fr 1.2fr;gap:50px}
+
+
+    .info-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+
+    .info-card{background:var(--card);border-radius:20px;padding:30px;text-align:center}
+
+    .info-card h4{margin-top:10px}
+
+    .map{margin-top:24px;border-radius:20px;overflow:hidden}
+
+    .form-card{background:#ffffff;border-radius:26px;padding:50px}
+
+    .form-card h2{margin-bottom:12px}
+
+    .form-card p{color:var(--muted);margin-bottom:30px}
+
+    label{font-size:13px;color:var(--muted)}
+
+    input,textarea{width:100%;margin-top:6px;margin-bottom:18px;padding:14px;border-radius:12px;border:1px solid #ddd;font-family:inherit}
+
+    textarea{resize:none;height:120px}
+
+    button{width:100%;padding:14px;border:none;border-radius:999px;background:var(--primary);color:#fff;font-size:15px;cursor:pointer}
+    button:hover{
+      background-color: #ebb28d ;color: #000;
+    }
+
+    footer{background:var(--dark);color:#d8cfc8;padding:80px 20px}
+
+    .footer-inner{max-width:1200px;margin:auto;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px}
+
+    footer h4{color:#fff;margin-bottom:14px}
+
+    footer a,footer p{color:#cdbfb6;font-size:14px;text-decoration:none;display:block;margin-bottom:6px}
+
+  </style>
+
+</head>
+<body>
+
+<header>
+  <strong>Poliform</strong>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About Us</a>
+    <a href="#">Pages</a>
+    <a href="#">Contact Us</a>
+  </nav>
+
+</header>
+
+<div class="hero">
+  <h1>Contact Us</h1>
+  <p>We would love to help you furnish your home with elegance, comfort, and quality.</p>
+  <div class="bread-img">
+    <img src="/PHOTO/photo_2025-08-25_18-05-50.jpg" alt="decor">
+  </div>
+</div>
+
+<section>
+  <div class="contact-grid">
+    <div>
+      <div class="info-grid">
+        <div class="info-card"><h4>Phone</h4><p>+098 914 234 98 36</p></div>
+        <div class="info-card"><h4>WhatsApp</h4><p>+098 996 376 23 94</p></div>
+        <div class="info-card"><h4>Email</h4><a href="#">Poliform.homy@gmail.com</a></div>
+        <div class="info-card"><h4>Our Showroom</h4><p>WA - Mahabad city - 21th avennue</p></div>
+      </div>
+      <div class="map">
+        <iframe src="https://maps.google.com/maps?q=Omaha&t=&z=11&ie=UTF8&iwloc=&output=embed" width="100%" height="220" style="border:0"></iframe>
+      </div>
+    </div>
+
+    <div class="form-card">
+      <h2>Get In Touch</h2>
+      <p>Have questions about furniture, décor, or custom solutions? Send us a message.</p>
+      <label>Name</label>
+      <input type="text" placeholder="Your Name">
+      <label>Email</label>
+      <input type="email" placeholder="Your Email">
+      <label>Subject</label>
+      <input type="text" placeholder="Subject">
+      <label>Message</label>
+      <textarea placeholder="Write your message..."></textarea>
+      <button>Send Now</button>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div>
+      <h4>HomeFurni</h4>
+      <p>Premium home furniture & décor solutions crafted with passion.</p>
+    </div>
+    <div>
+      <h4>Our Store</h4>
+      <a href="#">Home</a><a href="#">About</a><a href="#">Service</a><a href="#">Contact</a>
+    </div>
+    <div>
+      <h4>Links</h4>
+      <a href="#">Terms</a><a href="#">News</a><a href="#">Learning</a>
+    </div>
+    <div>
+      <h4>Get In Touch</h4>
+      <p>WA - Mahabad city - 21th avennue</p>
+      <p>+098 996 376 23 94</p>
+      <p>Poliform.homy@gmail.com</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
